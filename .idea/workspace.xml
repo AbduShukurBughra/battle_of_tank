@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed1cc816-6a3a-451c-b86e-ea67216667e4" name="Changes" comment="game object finish" />
+    <list default="true" id="ed1cc816-6a3a-451c-b86e-ea67216667e4" name="Changes" comment="game object finish">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -65,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673892554054</updated>
-      <workItem from="1673892557021" duration="6227000" />
+      <workItem from="1673892557021" duration="7021000" />
     </task>
     <task id="LOCAL-00001" summary="write a pain() Method">
       <created>1673893293744</created>
@@ -102,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673899415566</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="game object finish">
+      <created>1673899581317</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673899581317</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
