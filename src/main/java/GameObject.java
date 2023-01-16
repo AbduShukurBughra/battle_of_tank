@@ -2,9 +2,9 @@ import java.awt.*;
 
 public abstract class GameObject {
     //picture
-    private Image img;
+    public Image img;
     //coordinate
-    private int x, y;
+    public int x, y;
     //interface
     private GamePanel gamePanel;
 
@@ -17,5 +17,6 @@ public abstract class GameObject {
 
     public abstract void paintSelf(Graphics g);
 
-    public abstract Rectangle gerRec();
+    public abstract Rectangle getRec();
+
 }

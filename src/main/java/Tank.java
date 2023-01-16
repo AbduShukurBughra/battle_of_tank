@@ -1,8 +1,8 @@
 import java.awt.*;
 
 public class Tank extends GameObject{
-    private int with = 40;
-    private int height = 50;
+    public int with = 40;
+    public int height = 50;
     //speed
     private int speed = 3;
     //direction
@@ -27,8 +27,10 @@ public class Tank extends GameObject{
     public void paintSelf(Graphics g) {
     }
 
+
+
     @Override
-    public Rectangle gerRec() {
+    public Rectangle getRec() {
         return null;
     }
 }

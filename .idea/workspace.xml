@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed1cc816-6a3a-451c-b86e-ea67216667e4" name="Changes" comment="game object finish">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tank.java" afterDir="false" />
+    <list default="true" id="ed1cc816-6a3a-451c-b86e-ea67216667e4" name="Changes" comment="Tank object finish">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PlayerOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tank_2D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673892554054</updated>
-      <workItem from="1673892557021" duration="7021000" />
+      <workItem from="1673892557021" duration="9045000" />
     </task>
     <task id="LOCAL-00001" summary="write a pain() Method">
       <created>1673893293744</created>
@@ -114,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673899581317</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tank object finish">
+      <created>1673900316429</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673900316429</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Tank object finish">
+      <created>1673900347848</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673900347848</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +152,7 @@
     <MESSAGE value="write a pain() Method" />
     <MESSAGE value="game panel finish" />
     <MESSAGE value="game object finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="game object finish" />
+    <MESSAGE value="Tank object finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tank object finish" />
   </component>
 </project>

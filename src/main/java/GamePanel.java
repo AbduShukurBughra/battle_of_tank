@@ -16,6 +16,12 @@ public class GamePanel extends JFrame {
     //Game Types 0 none start game, 1 single player 2 two players
     int state = 0;
     int a = 1;
+    //Player one
+    PlayerOne playerOne = new PlayerOne("images/playerOne/up_tank.png",125,510,this,
+            "images/playerOne/up_tank.png",
+            "images/playerOne/down_tank.png",
+            "images/playerOne/left_tank.png",
+            "images/playerOne/right_tank.png");
 
 
     public void launch() {
@@ -62,6 +68,8 @@ public class GamePanel extends JFrame {
             } else {
                 gImage.drawString("ئىككى كىشىلىك ئويناش", 220, 300);
             }
+            //adding game elements
+            playerOne.paintSelf(gImage);
         }
         g.drawImage(offscreenImage,0,0,null);
     }
