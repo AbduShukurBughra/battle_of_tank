@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed1cc816-6a3a-451c-b86e-ea67216667e4" name="Changes" comment="game panel finish">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GameObject.java" afterDir="false" />
-    </list>
+    <list default="true" id="ed1cc816-6a3a-451c-b86e-ea67216667e4" name="Changes" comment="game object finish" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -66,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673892554054</updated>
-      <workItem from="1673892557021" duration="5910000" />
+      <workItem from="1673892557021" duration="6227000" />
     </task>
     <task id="LOCAL-00001" summary="write a pain() Method">
       <created>1673893293744</created>
@@ -96,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673898844164</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="game object finish">
+      <created>1673899415566</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673899415566</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="write a pain() Method" />
     <MESSAGE value="game panel finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="game panel finish" />
+    <MESSAGE value="game object finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="game object finish" />
   </component>
 </project>
