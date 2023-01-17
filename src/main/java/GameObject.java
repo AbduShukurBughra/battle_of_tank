@@ -6,7 +6,7 @@ public abstract class GameObject {
     //coordinate
     public int x, y;
     //interface
-    private GamePanel gamePanel;
+    public GamePanel gamePanel;
 
     public GameObject(String img, int x, int y, GamePanel gamePanel) {
         this.img = Toolkit.getDefaultToolkit().getImage(img);

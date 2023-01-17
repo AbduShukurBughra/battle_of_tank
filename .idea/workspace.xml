@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed1cc816-6a3a-451c-b86e-ea67216667e4" name="Changes" comment="Tank object finish">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PlayerOne.java" afterDir="false" />
+    <list default="true" id="ed1cc816-6a3a-451c-b86e-ea67216667e4" name="Changes" comment="Tank moved">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bullet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tank_2D.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +44,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
@@ -73,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673892554054</updated>
-      <workItem from="1673892557021" duration="9045000" />
+      <workItem from="1673892557021" duration="17482000" />
     </task>
     <task id="LOCAL-00001" summary="write a pain() Method">
       <created>1673893293744</created>
@@ -131,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673900347848</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Tank Player One finish">
+      <created>1673902411035</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673902411035</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Tank Player One finish">
+      <created>1673902427372</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673902427372</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +169,8 @@
     <MESSAGE value="game panel finish" />
     <MESSAGE value="game object finish" />
     <MESSAGE value="Tank object finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tank object finish" />
+    <MESSAGE value="Tank Player One finish" />
+    <MESSAGE value="Tank moved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tank moved" />
   </component>
 </project>

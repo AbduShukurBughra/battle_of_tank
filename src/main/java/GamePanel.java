@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.util.ArrayList;
 
 import static java.awt.event.KeyEvent.VK_1;
 
@@ -16,6 +17,8 @@ public class GamePanel extends JFrame {
     //Game Types 0 none start game, 1 single player 2 two players
     int state = 0;
     int a = 1;
+    //game element list
+    ArrayList<Bullet> bulletList = new ArrayList<Bullet>();
     //Player one
     PlayerOne playerOne = new PlayerOne("images/playerOne/up_tank.png",125,510,this,
             "images/playerOne/up_tank.png",
@@ -25,7 +28,7 @@ public class GamePanel extends JFrame {
 
 
     public void launch() {
-        setTitle("Battle Of Tank");
+        setTitle("تانكا ئويۇنى");
         setSize(width, height);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(3);
@@ -70,6 +73,9 @@ public class GamePanel extends JFrame {
             }
             //adding game elements
             playerOne.paintSelf(gImage);
+            for (Bullet bullet: bulletList){
+                bullet.paintSelf(gImage);
+            }
         }
         g.drawImage(offscreenImage,0,0,null);
     }
@@ -83,6 +89,7 @@ public class GamePanel extends JFrame {
     class KeyMonitor extends KeyAdapter {
         //press the keyboard
         @Override
+        //pressed keyboard
         public void keyPressed(KeyEvent e) {
             //return key
             int key = e.getKeyCode();
@@ -98,8 +105,15 @@ public class GamePanel extends JFrame {
                 case KeyEvent.VK_ENTER:
                     state =a;
                     break;
+                default:
+                    playerOne.keyPressed(e);
             }
             System.out.println(e.getKeyChar());
+        }
+        //released keyboard
+        @Override
+        public void keyReleased(KeyEvent e) {
+            playerOne.keyReleased(e);
         }
     }
 }
