@@ -71,6 +71,7 @@ public class GamePanel extends JFrame {
             } else {
                 gImage.drawString("ئىككى كىشىلىك ئويناش", 220, 300);
             }
+
             //adding game elements
             playerOne.paintSelf(gImage);
             for (Bullet bullet: bulletList){

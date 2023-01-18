@@ -19,6 +19,10 @@ public class Tank extends GameObject {
     boolean up = false;
     boolean down = false;
 
+    //Attack mode
+    private boolean attackCoolDown = true;
+    private int attackCoolDownTime =1000;
+
     public Tank(String img, int x, int y, GamePanel gamePanel,
                 String upImg, String downImg, String leftImg, String rightImg) {
         super(img, x, y, gamePanel);
@@ -53,12 +57,27 @@ public class Tank extends GameObject {
     }
 
     public void attack() {
+        if (attackCoolDown){
         Point point = this.getHeadPoint();
-        Bullet bullet = new Bullet("images/bullet.png", point.x, point.y, this.gamePanel,direction);
+        Bullet bullet = new Bullet("images/bullet00.png", point.x, point.y, this.gamePanel,direction);
         this.gamePanel.bulletList.add(bullet);
-
+        new AttackCD().start();
+    }
     }
 
+    //new line
+    class AttackCD extends Thread{
+        public void run() {
+            attackCoolDown = false;
+            try{
+                Thread.sleep(attackCoolDownTime);
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+            attackCoolDown = true;
+            this.stop();
+        }
+    }
     public Point getHeadPoint() {
        switch (direction) {
            case LEFT:
