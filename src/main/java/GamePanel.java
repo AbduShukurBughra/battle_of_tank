@@ -17,14 +17,23 @@ public class GamePanel extends JFrame {
     //Game Types 0 none start game, 1 single player 2 two players
     int state = 0;
     int a = 1;
+    int count = 0;
     //game element list
     ArrayList<Bullet> bulletList = new ArrayList<Bullet>();
+    ArrayList<Bot> botList = new ArrayList<Bot>();
     //Player one
     PlayerOne playerOne = new PlayerOne("images/playerOne/up_tank.png",125,510,this,
             "images/playerOne/up_tank.png",
             "images/playerOne/down_tank.png",
             "images/playerOne/left_tank.png",
             "images/playerOne/right_tank.png");
+
+    //bot
+    Bot bot = new Bot("images/enemy/bot_up.png",125,510, this,
+            "images/enemy/bot_up.png",
+            "images/enemy/bot_down.png",
+            "images/enemy/bot_left.png",
+            "images/enemy/bot_right.png" );
 
 
     public void launch() {
@@ -38,6 +47,12 @@ public class GamePanel extends JFrame {
 
         //重绘
         while (true) {
+            //adding enemy tank
+            botList.add(new Bot("images/enemy/bot_up.png",125,510, this,
+                    "images/enemy/bot_up.png",
+                    "images/enemy/bot_down.png",
+                    "images/enemy/bot_left.png",
+                    "images/enemy/bot_right.png" ));
             repaint();
             try {
                 Thread.sleep(25);
@@ -77,6 +92,10 @@ public class GamePanel extends JFrame {
             for (Bullet bullet: bulletList){
                 bullet.paintSelf(gImage);
             }
+            bot.paintSelf(gImage);
+            //redraw once
+            count++;
+
         }
         g.drawImage(offscreenImage,0,0,null);
     }

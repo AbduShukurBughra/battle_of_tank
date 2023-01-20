@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed1cc816-6a3a-451c-b86e-ea67216667e4" name="Changes" comment="Tank attack">
+    <list default="true" id="ed1cc816-6a3a-451c-b86e-ea67216667e4" name="Changes" comment="adding enemy tank">
+      <change afterPath="$PROJECT_DIR$/images/enemy/bot_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/enemy/bot_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/enemy/bot_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/enemy/bot_up.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/bullet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\battle_of_tank\images\bot" />
       <recent name="C:\Users\HP\Desktop\battle_of_tank\images" />
     </key>
   </component>
@@ -73,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673892554054</updated>
       <workItem from="1673892557021" duration="17821000" />
-      <workItem from="1674079556860" duration="1960000" />
+      <workItem from="1674079556860" duration="4607000" />
     </task>
     <task id="LOCAL-00001" summary="write a pain() Method">
       <created>1673893293744</created>
@@ -152,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673936132408</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tank attack finish">
+      <created>1674082724254</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674082724254</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +188,8 @@
     <MESSAGE value="Tank Player One finish" />
     <MESSAGE value="Tank moved" />
     <MESSAGE value="Tank attack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tank attack" />
+    <MESSAGE value="Tank attack finish" />
+    <MESSAGE value="adding enemy tank" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding enemy tank" />
   </component>
 </project>
