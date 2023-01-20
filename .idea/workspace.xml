@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed1cc816-6a3a-451c-b86e-ea67216667e4" name="Changes" comment="adding enemy tank">
-      <change afterPath="$PROJECT_DIR$/images/enemy/bot_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/enemy/bot_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/enemy/bot_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/enemy/bot_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EnemyBullet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +75,9 @@
       <updated>1673892554054</updated>
       <workItem from="1673892557021" duration="17821000" />
       <workItem from="1674079556860" duration="4607000" />
+      <workItem from="1674198217551" duration="428000" />
+      <workItem from="1674239802159" duration="998000" />
+      <workItem from="1674242683735" duration="2667000" />
     </task>
     <task id="LOCAL-00001" summary="write a pain() Method">
       <created>1673893293744</created>
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674082724254</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="adding enemy tank">
+      <created>1674198258556</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674198258556</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

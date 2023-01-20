@@ -6,7 +6,7 @@ public class Tank extends GameObject {
     //speed
     private int speed = 3;
     //direction
-    private Direction direction = Direction.UP;
+    public Direction direction = Direction.UP;
     //Tank position
     private String upImg;
     private String downImg;
